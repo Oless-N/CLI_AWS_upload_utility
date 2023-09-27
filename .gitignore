@@ -1,0 +1,6 @@
+/.env
+/.pytest_cache/
+/CLI_AWS_upload_utility.egg-info/
+/build/
+/.idea
+/Readme.txt

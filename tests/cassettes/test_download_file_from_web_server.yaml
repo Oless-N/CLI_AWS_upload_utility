@@ -1,0 +1,263 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www.learningcontainer.com/download/sample-zip-files/?wpdmdl=1637&refresh=65118c7fa61b71695648895
+  response:
+    body:
+      string: !!binary |
+        UEsDBBQACAAIAHWTpVAAAAAAAAAAABoBAAAKACAAc2FtcGxlLnR4dFVUDQAHx2KxXsdisV7HYrFe
+        dXgLAAEE6AMAAAToAwAARY8xUsUwDAX7nOJR0TC5AgVVei4gLA3O4FgeS/4ht/8y8IdWI+2uNpw6
+        CqPoTeAK7xe0Iwt1eBYYHa0IaPCuuHR0UGtIVNG68kiyYgMrqjpOqj4ZbfSUyeQFH5JomGB7Dvpj
+        zDDFQfWaKAsLeWiuqbsmyvQQz3v9BFV+sFnKfpO+AsvyFvZIQYQFDsT81/cbazh3z3D59rk21Ulr
+        HLvwa6T8P2siP09KeLrYKG7rsrxnql/2dAdQSwcIW7BjHLYAAAAaAQAAUEsBAhQDFAAIAAgAdZOl
+        UFuwYxy2AAAAGgEAAAoAIAAAAAAAAAAAALSBAAAAAHNhbXBsZS50eHRVVA0AB8disV7HYrFex2Kx
+        XnV4CwABBOgDAAAE6AMAAFBLBQYAAAAAAQABAFgAAAAOAQAAAAA=
+    headers:
+      Accept-Ranges:
+      - bytes
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 80cf90be5bb277a9-KBP
+      Cache-Control:
+      - no-cache, must-revalidate, max-age=0
+      Connection:
+      - keep-alive
+      Content-Description:
+      - File Transfer
+      Content-Length:
+      - '380'
+      Content-Transfer-Encoding:
+      - binary
+      Content-Type:
+      - application/zip
+      Content-disposition:
+      - attachment;filename="sample-zip-file.zip"
+      Date:
+      - Wed, 27 Sep 2023 00:17:46 GMT
+      Expires:
+      - Wed, 11 Jan 1984 05:00:00 GMT
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K8I0shlQ7y5rTABwOCmx4MY026ZOq0gl0pix7HVlKH8MosDIIhabF%2FQf6OHIYV7W3jfePX%2FvcwsxMWhRxih2Ly3EQpn9tIPVMibY0DM8e58ueozaCE2oJb1%2F6Bg297ekBtFjmIoLCQdi8MP8"}],"group":"cf-nel","max_age":604800}'
+      Robots:
+      - none
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __wpdm_client=eecd84032541bd2170ea2fc6b823c2c7; path=/; secure; HttpOnly
+      Vary:
+      - X-Forwarded-Proto,Accept-Encoding
+      X-Robots-Tag:
+      - noindex, nofollow
+      alt-svc:
+      - h3=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: !!python/object/new:_io.BytesIO
+      state: !!python/tuple
+      - !!binary |
+        SSB3b3VsZCBsb3ZlIHRvIHRyeSBvciBoZWFyIHRoZSBzYW1wbGUgYXVkaW8geW91ciBhcHAgY2Fu
+        IHByb2R1Y2UuIEkgZG8gbm90IHdhbnQgdG8gcHVyY2hhc2UsIGJlY2F1c2UgSSd2ZSBwdXJjaGFz
+        ZWQgc28gbWFueSBhcHBzIHRoYXQgc2F5IHRoZXkgZG8gc29tZXRoaW5nIGFuZCBkbyBub3QgZGVs
+        aXZlci4gIAoKQ2FuIHlvdSBwbGVhc2UgYWRkIGF1ZGlvIHNhbXBsZXMgd2l0aCB0ZXh0IHlvdSd2
+        ZSBjb252ZXJ0ZWQ/IEknZCBsb3ZlIHRvIHNlZSB0aGUgZW5kIHJlc3VsdHMuCgpUaGFua3Mh
+      - 0
+      - null
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFZWlVETFpYNlpRM0lXWTVMLzIwMjMwOTI3
+        L2V1LWNlbnRyYWwtMS9zMy9hd3M0X3JlcXVlc3QsIFNpZ25lZEhlYWRlcnM9Y29udGVudC1tZDU7
+        aG9zdDt4LWFtei1jb250ZW50LXNoYTI1Njt4LWFtei1kYXRlLCBTaWduYXR1cmU9YjViZmU0ZDE3
+        MjZiMWYwNzA4ZmMxYWY3OWQxYWRhY2I1YjA1ZjRiMTMwMzYxNmEwMzEzYjdlM2I1Y2Y3NTY4MA==
+      Content-Length:
+      - '282'
+      Content-MD5:
+      - !!binary |
+        N1Z3SjMzK05nS2wvajRuaStoSFpsQT09
+      Expect:
+      - !!binary |
+        MTAwLWNvbnRpbnVl
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS4yOC41NSBtZC9Cb3RvY29yZSMxLjMxLjU1IHVhLzIuMCBvcy9tYWNvcyMyMi42LjAg
+        bWQvYXJjaCN4ODZfNjQgbGFuZy9weXRob24jMy4xMS40IG1kL3B5aW1wbCNDUHl0aG9uIGNmZy9y
+        ZXRyeS1tb2RlI2xlZ2FjeSBCb3RvY29yZS8xLjMxLjU1
+      X-Amz-Content-SHA256:
+      - !!binary |
+        VU5TSUdORUQtUEFZTE9BRA==
+      X-Amz-Date:
+      - !!binary |
+        MjAyMzA5MjdUMDAxNzQ2Wg==
+      amz-sdk-invocation-id:
+      - !!binary |
+        ZjIwNGEyOTYtYWM2OC00Y2MzLTlmN2YtNzZjYjcyYjNjMTcy
+      amz-sdk-request:
+      - !!binary |
+        YXR0ZW1wdD0x
+    method: PUT
+    uri: https://test.s3.eu-central-1.amazonaws.com/test_prefix/sample.txt
+  response:
+    body:
+      string: '<?xml version="1.0" encoding="UTF-8"?>
+
+        <Error><Code>PermanentRedirect</Code><Message>The bucket you are attempting
+        to access must be addressed using the specified endpoint. Please send all
+        future requests to this endpoint.</Message><Endpoint>test.s3.us-east-2.amazonaws.com</Endpoint><Bucket>test</Bucket><RequestId>GN72KDGNQ7EJT2JG</RequestId><HostId>YJyBzd6b6yQNFKdmhenyMDzH9AZP8pFu42ZjN1Hb/kDqTpBWZz7aAz+falLbinTnkuaoavGg8Qs=</HostId></Error>'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/xml
+      Date:
+      - Wed, 27 Sep 2023 00:17:46 GMT
+      Server:
+      - AmazonS3
+      Transfer-Encoding:
+      - chunked
+      x-amz-bucket-region:
+      - us-east-2
+      x-amz-id-2:
+      - YJyBzd6b6yQNFKdmhenyMDzH9AZP8pFu42ZjN1Hb/kDqTpBWZz7aAz+falLbinTnkuaoavGg8Qs=
+      x-amz-request-id:
+      - GN72KDGNQ7EJT2JG
+    status:
+      code: 301
+      message: Moved Permanently
+- request:
+    body: !!python/object/new:_io.BytesIO
+      state: !!python/tuple
+      - !!binary |
+        SSB3b3VsZCBsb3ZlIHRvIHRyeSBvciBoZWFyIHRoZSBzYW1wbGUgYXVkaW8geW91ciBhcHAgY2Fu
+        IHByb2R1Y2UuIEkgZG8gbm90IHdhbnQgdG8gcHVyY2hhc2UsIGJlY2F1c2UgSSd2ZSBwdXJjaGFz
+        ZWQgc28gbWFueSBhcHBzIHRoYXQgc2F5IHRoZXkgZG8gc29tZXRoaW5nIGFuZCBkbyBub3QgZGVs
+        aXZlci4gIAoKQ2FuIHlvdSBwbGVhc2UgYWRkIGF1ZGlvIHNhbXBsZXMgd2l0aCB0ZXh0IHlvdSd2
+        ZSBjb252ZXJ0ZWQ/IEknZCBsb3ZlIHRvIHNlZSB0aGUgZW5kIHJlc3VsdHMuCgpUaGFua3Mh
+      - 0
+      - null
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFZWlVETFpYNlpRM0lXWTVMLzIwMjMwOTI3
+        L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QsIFNpZ25lZEhlYWRlcnM9Y29udGVudC1tZDU7aG9z
+        dDt4LWFtei1jb250ZW50LXNoYTI1Njt4LWFtei1kYXRlLCBTaWduYXR1cmU9NmRjYzRmNjdjNTcz
+        ZjYwODcyMDNmYzM2NmVmYzVjMzg1ZTE0MTk4YzFiNjZmNDQyNmY3YzI1YjNmMDQ4MjRjNg==
+      Content-Length:
+      - '282'
+      Content-MD5:
+      - !!binary |
+        N1Z3SjMzK05nS2wvajRuaStoSFpsQT09
+      Expect:
+      - !!binary |
+        MTAwLWNvbnRpbnVl
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS4yOC41NSBtZC9Cb3RvY29yZSMxLjMxLjU1IHVhLzIuMCBvcy9tYWNvcyMyMi42LjAg
+        bWQvYXJjaCN4ODZfNjQgbGFuZy9weXRob24jMy4xMS40IG1kL3B5aW1wbCNDUHl0aG9uIGNmZy9y
+        ZXRyeS1tb2RlI2xlZ2FjeSBCb3RvY29yZS8xLjMxLjU1
+      X-Amz-Content-SHA256:
+      - !!binary |
+        VU5TSUdORUQtUEFZTE9BRA==
+      X-Amz-Date:
+      - !!binary |
+        MjAyMzA5MjdUMDAxNzQ2Wg==
+      amz-sdk-invocation-id:
+      - !!binary |
+        ZjIwNGEyOTYtYWM2OC00Y2MzLTlmN2YtNzZjYjcyYjNjMTcy
+      amz-sdk-request:
+      - !!binary |
+        dHRsPTIwMjMwOTI3VDAwMTg0Nlo7IGF0dGVtcHQ9MjsgbWF4PTU=
+    method: PUT
+    uri: https://test.s3.us-east-2.amazonaws.com/test_prefix/sample.txt
+  response:
+    body:
+      string: '<?xml version="1.0" encoding="UTF-8"?>
+
+        <Error><Code>AllAccessDisabled</Code><Message>All access to this object has
+        been disabled</Message><RequestId>CKZXRZA6GXP8K7E5</RequestId><HostId>wqyQugvYiOelFMZ6PfLOmzVUwFOxsUq4h93CJMiMh80g3q2CcRKqdWMJy9S84xoWMp2U4nI2Sq8t830XqaC+Uw==</HostId></Error>'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/xml
+      Date:
+      - Wed, 27 Sep 2023 00:17:47 GMT
+      Server:
+      - AmazonS3
+      Transfer-Encoding:
+      - chunked
+      x-amz-id-2:
+      - wqyQugvYiOelFMZ6PfLOmzVUwFOxsUq4h93CJMiMh80g3q2CcRKqdWMJy9S84xoWMp2U4nI2Sq8t830XqaC+Uw==
+      x-amz-request-id:
+      - CKZXRZA6GXP8K7E5
+    status:
+      code: 403
+      message: Forbidden
+- request:
+    body: null
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFZWlVETFpYNlpRM0lXWTVMLzIwMjMwOTI3
+        L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QsIFNpZ25lZEhlYWRlcnM9aG9zdDt4LWFtei1jb250
+        ZW50LXNoYTI1Njt4LWFtei1kYXRlLCBTaWduYXR1cmU9MWQxYWZlY2E1MmIwNzA1NzA4MmM3YTU5
+        ZmE4OTdmZmNmODQ3OWE5ZGE3NjMzNDJmMmVkM2E1NjFkY2E2NjdlMA==
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS4yOC41NSBtZC9Cb3RvY29yZSMxLjMxLjU1IHVhLzIuMCBvcy9tYWNvcyMyMi42LjAg
+        bWQvYXJjaCN4ODZfNjQgbGFuZy9weXRob24jMy4xMS40IG1kL3B5aW1wbCNDUHl0aG9uIGNmZy9y
+        ZXRyeS1tb2RlI2xlZ2FjeSBCb3RvY29yZS8xLjMxLjU1
+      X-Amz-Content-SHA256:
+      - !!binary |
+        ZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3
+        ODUyYjg1NQ==
+      X-Amz-Date:
+      - !!binary |
+        MjAyMzA5MjdUMDAxNzQ3Wg==
+      amz-sdk-invocation-id:
+      - !!binary |
+        ZDI5YTIxMTktZGNiNy00OTM4LTk4NGUtMzFiZmExY2I3Mzlh
+      amz-sdk-request:
+      - !!binary |
+        YXR0ZW1wdD0x
+    method: GET
+    uri: https://test.s3.us-east-2.amazonaws.com/?encoding-type=url
+  response:
+    body:
+      string: '<?xml version="1.0" encoding="UTF-8"?>
+
+        <Error><Code>AllAccessDisabled</Code><Message>All access to this object has
+        been disabled</Message><RequestId>CKZT9ZQT4E59KTRV</RequestId><HostId>Mpbp2P4WTziuAjBvRK9ZhoGmopnhYEcIoOtZOUpJAdcWCaigKqnPTmyu3TS7zvdcWAQ9bb8Q+1YQ7kPpf4A0Rw==</HostId></Error>'
+    headers:
+      Content-Type:
+      - application/xml
+      Date:
+      - Wed, 27 Sep 2023 00:17:47 GMT
+      Server:
+      - AmazonS3
+      Transfer-Encoding:
+      - chunked
+      x-amz-bucket-region:
+      - us-east-2
+      x-amz-id-2:
+      - Mpbp2P4WTziuAjBvRK9ZhoGmopnhYEcIoOtZOUpJAdcWCaigKqnPTmyu3TS7zvdcWAQ9bb8Q+1YQ7kPpf4A0Rw==
+      x-amz-request-id:
+      - CKZT9ZQT4E59KTRV
+    status:
+      code: 403
+      message: Forbidden
+version: 1

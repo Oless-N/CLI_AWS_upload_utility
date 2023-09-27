@@ -1,0 +1,4 @@
+moto==4.2.4
+pytest>=7.4.2
+python-dotenv>=1.0.0
+pytest-vcr>=1.0.2
